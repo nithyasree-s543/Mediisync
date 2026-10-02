@@ -1,0 +1,12 @@
+{
+    "name": "medisync-root",
+    "version": "1.0.0",
+    "description": "MediSync - Connecting Medical Records for Better Care",
+    "scripts": {
+        "install-all": "cd backend && npm install && cd ../frontend && npm install",
+        "dev:backend": "cd backend && npm run dev",
+        "dev:frontend": "cd frontend && npm run dev",
+        "dev": "echo 'Run backend and frontend in separate terminals: npm run dev:backend and npm run dev:frontend'",
+        "build": "cd frontend && npm run build"
+    }
+}
